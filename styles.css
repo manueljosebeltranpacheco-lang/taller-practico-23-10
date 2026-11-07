@@ -47,3 +47,24 @@ body {
 .menu__enlace:hover {
   color: #fbbf24;
 }
+.habilidades {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.habilidades__lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  list-style: none;
+}
+
+.habilidades__item {
+  background-color: #e5e7eb;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
